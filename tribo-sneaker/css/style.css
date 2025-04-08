@@ -3,20 +3,20 @@
 
     --background-color: rgba(5, 13, 24, 0.555);
 
-    --fundo-menu-lateral: #17328b;
-    --fundo-claro: #a6afb4;
-    --fundo-escuro: #2f3538;
+    --fundo-menu-lateral: #070102;
+    --fundo-claro: #f1ba04;
+    --fundo-escuro: #fc3605;
 
-    --borda-clara: #1ca3c5;
-    --borda-escura: #037F8C;
+    --borda-clara: #f5270c;
+    --borda-escura: #fa3807;
 
     --texto-escuro: #161616;
     --texto-claro: #c8d4db;
     --texto-branco: #ecf8ff;
-    --texto-hover: #218591;
+    --texto-hover: #f0530a;
     --texto-opaco: #bcc0c5;
 
-    --cor-detalhes: #dd7825;
+    --cor-detalhes: #c4271c;
 
     --texto-titulo-claro: #38E0F2;
     --texto-titulo-escuro: #037F8C;
