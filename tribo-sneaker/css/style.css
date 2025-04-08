@@ -3,20 +3,20 @@
 
     --background-color: rgba(5, 13, 24, 0.555);
 
-    --fundo-menu-lateral: #57362b;
+    --fundo-menu-lateral: #17328b;
     --fundo-claro: #a6afb4;
     --fundo-escuro: #2f3538;
 
-    --borda-clara: #b27059;
+    --borda-clara: #1ca3c5;
     --borda-escura: #037F8C;
 
     --texto-escuro: #161616;
     --texto-claro: #c8d4db;
     --texto-branco: #ecf8ff;
     --texto-hover: #218591;
-    --texto-opaco: #81888c;
+    --texto-opaco: #bcc0c5;
 
-    --cor-detalhes: #149ddd;
+    --cor-detalhes: #dd7825;
 
     --texto-titulo-claro: #38E0F2;
     --texto-titulo-escuro: #037F8C;
@@ -136,5 +136,62 @@ mobile-nav-active #header {
     }
 
 }
+/* Menu do Header */
+.nav-menu {
+    padding: 30px 0 0 0;
+}
 
+.nav-menu *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
+.nav-menu>ul>li {
+    position: relative;
+    white-space: nowrap;
+    font-weight: 400;
+}
+.nav-menu a,
+.nav-menu:focus {
+    display: flex;
+    align-items: center;
+    color: var(--texto-opaco);
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+/* deslizar para baixo */
+.nav-menu a i,
+.nav-menu a:focus i {
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+/* efeito hover */
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
+    text-decoration: none;
+    color: var(--texto-claro)
+}
+
+/* efeitos icones */
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover>a i {
+    text-decoration: none;
+    color: var(--cor-detalhes)
+}
+
+ /* Hero */
+ #hero {
+    width: 100%;
+    height: 100vh; /* view Port Heigth */
+    background: url('../img/bg-hero1.png'); /* criar img na IA */
+    background-size: cover;
+    position: relative;
+ }
