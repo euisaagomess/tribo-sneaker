@@ -191,7 +191,47 @@ mobile-nav-active #header {
  #hero {
     width: 100%;
     height: 100vh; /* view Port Heigth */
-    background: url('../img/bg-hero1.png'); /* criar img na IA */
+    background: url('../img/bg-hero1.png') center; /* criar img na IA */
     background-size: cover;
     position: relative;
  }
+
+ #hero::before {
+    content: " ";
+    position: absolute;
+    z-index: 2;
+    inset: 0; /* resumiu os comandos com o mesmo valor */
+    background-color: rgba(31, 31, 31, 0.5); /* transparencia */
+    
+ }
+
+ #hero .hero-container {
+    z-index: 3; /* passa uma camada encima da outra */
+    position: relative;
+    min-width: 300px;
+    
+ }
+
+ #hero h2 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1; /* funciona apenas um número */
+    color: #ecf8ff;
+    letter-spacing: 22px; /* separar caracteres */
+ }
+
+ #hero p {
+    color: #ecf8ff;
+    margin-bottom: 50px;
+    font-size: 26px;
+   
+ }
+
+ #hero p span {
+    color: #13eefd;
+    padding-bottom: 4px;
+    letter-spacing: 2px;
+    border-bottom: 3px solid rgb(13, 218, 245)
+ }
+
