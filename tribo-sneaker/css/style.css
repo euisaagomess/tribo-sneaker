@@ -235,3 +235,13 @@ mobile-nav-active #header {
     border-bottom: 3px solid rgb(13, 218, 245)
  }
 
+ /* Estrutura Base - Corpo */
+#main {
+    margin-left: 300px;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
