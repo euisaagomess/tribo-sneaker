@@ -273,6 +273,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .section-title h2::after {
