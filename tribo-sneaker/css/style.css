@@ -23,6 +23,9 @@
 
     --sombra-clara: rgba(255, 255, 255, 1);
     --sombra-escura: rgba(31, 31, 31, 0.1);
+
+    --fundo-claro:
+    --fundo-escuro:
 }
 
 /* CSS Geral */
@@ -245,3 +248,33 @@ mobile-nav-active #header {
     padding-right: 30px;
 }
 
+/* Seções de Titulos */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    background: #cc890d;
+}
+
+.section-bg {
+    /* escura */
+    background: #f83403;
+    color: var(--texto-claro);
+}
+
+/* class h2 */
+.section-title {
+    padding-bottom: 30px;
+
+}
+
+.section-title h2 {
+    color: #49230a;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title h2::after {
+
+}
