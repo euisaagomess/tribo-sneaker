@@ -401,6 +401,7 @@ section {
     padding: 15px 0 0 0;
     margin: 0 0 0 60px;
     color: #4d250a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .conquistas .count-box strong {
     font-weight: 700;
@@ -411,4 +412,35 @@ section {
 .conquistas .count-box span:hover {
     color: #bcc0c5;
     transition: ease-in-out .5s;
+}
+
+/* Venfas//Skilss = Mobilidades */
+.skills .progress{
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+
+}
+
+.skils .progress .skill {
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    display: block;
+    color: #75370e;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif; 
+
+}
+
+.skils .progress .skill .val {
+    font-style: normal;
+    float: right;
+}
+
+.skills .progress-bar-bg {
+    background: #f0edee;
+    height: 10px;
 }
