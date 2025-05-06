@@ -255,10 +255,10 @@ mobile-nav-active #header {
  }
 
  #hero p span {
-    color: #13eefd;
+    color: #fde613;
     padding-bottom: 4px;
     letter-spacing: 2px;
-    border-bottom: 3px solid rgb(13, 218, 245)
+    border-bottom: 3px solid rgb(230, 245, 13)
  }
 
  @media (min-width: 1024px) {
@@ -296,7 +296,7 @@ section {
 
 .section-bg {
     /* escura */
-    background: #f83403;
+    background: #832306;
     color: var(--texto-claro);
 }
 
@@ -410,12 +410,12 @@ section {
 
 .conquistas .count-box i:hover,
 .conquistas .count-box span:hover {
-    color: #bcc0c5;
+    color: #633d05;
     transition: ease-in-out .5s;
 }
 
-/* Venfas//Skilss = Mobilidades */
-.skills .progress{
+/* Vendas//Skilss = Mobilidades */
+.skills .progress {
     height: 60px;
     display: block;
     background: none;
@@ -423,24 +423,35 @@ section {
 
 }
 
-.skils .progress .skill {
+
+.skills .progress .skill {
     padding: 0;
     margin: 0 0 5px 0;
     text-transform: uppercase;
     display: block;
-    color: #75370e;
+    color: #fdfcfb;
     font-weight: 800;
     font-size: 16px;
     font-family: "Poppins", sans-serif; 
 
 }
 
-.skils .progress .skill .val {
+.skills .progress .skill .val {
     font-style: normal;
     float: right;
+    color: #f1e6d7;
+    font-weight: 800;
+    font-size: 16px;
 }
 
 .skills .progress-bar-bg {
-    background: #f0edee;
+    background: #f0eeed;
     height: 10px;
+}
+
+.skills .progress-bar {
+    height: 10px;
+    background: #eb8705;
+    transition: 5s;
+    width: 1px;
 }
