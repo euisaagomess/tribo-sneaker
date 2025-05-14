@@ -76,6 +76,17 @@
         })  
     }
 
+        //Isotope - Biblioteca para Filtro
+    window.addEventListener('load', () => {
+        let portfolioContainer = select (".potfolio-container")
+        if (portfolioContainer) {
+            let potfolioIsotope = new Isotope(portfolioContainer, {      /* cadastro da biblioteca externa */
+                itemsSelector: '.portfolio-item'
+            });
+
+            let portfolioFilters = select('#portfolio-filters li', true);
+        }
+    });
 
 
 })()
